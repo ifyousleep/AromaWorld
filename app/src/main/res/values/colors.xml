@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7e0e2f</color>
+    <color name="colorPrimaryDark">#4f0617</color>
+    <color name="colorAccent">#d17027</color>
+
+    <color name="bottom_navigation_item_background_colors">#7e0e2f</color>
+    <color name="row_activated">#e0e0e0</color>
+</resources>

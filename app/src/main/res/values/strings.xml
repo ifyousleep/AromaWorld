@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ароматный мир</string>
+
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <string name="navigation_drawer_title" translatable="false">Title</string>
+    <string name="navigation_drawer_subtitle" translatable="false">Subtitle</string>
+
+    <string name="menu_home">Каталог</string>
+    <string name="menu_sets">Сеты</string>
+    <string name="menu_actions">Акции</string>
+    <string name="menu_shop">Магазины</string>
+    <string name="menu_user">Профиль</string>
+
+    <string name="section_sets">Тематические подборки \nна любой случай</string>
+    <string name="section_viewed">Просмотренные товары</string>
+
+    <string name="button_more">Смотреть все</string>
+</resources>
