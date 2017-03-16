@@ -34,7 +34,7 @@ import com.ifyou.aroma.model.ViewedProduct;
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 /**
  * Created by Baranov on 14.03.2017.
@@ -42,23 +42,23 @@ import butterknife.Bind;
 
 public class HomeView extends ViewImpl {
 
-    @Bind(R.id.pagerBanner)
+    @BindView(R.id.pagerBanner)
     ViewPager mPagerBanner;
-    @Bind(R.id.viewPagerCountDots)
+    @BindView(R.id.viewPagerCountDots)
     LinearLayout mPagerIndicator;
-    @Bind(R.id.recyclerViewCatalog)
+    @BindView(R.id.recyclerViewCatalog)
     RecyclerView mRecyclerViewCatalog;
-    @Bind(R.id.sectionTitle)
+    @BindView(R.id.sectionTitle)
     TextView mSectionSetsTitle;
-    @Bind(R.id.recyclerViewSets)
+    @BindView(R.id.recyclerViewSets)
     RecyclerView mRecyclerViewTematicSet;
-    @Bind(R.id.sectionViewedTitle)
+    @BindView(R.id.sectionViewedTitle)
     TextView mSectionViewedTitle;
-    @Bind(R.id.recyclerViewSetsViewed)
+    @BindView(R.id.recyclerViewSetsViewed)
     RecyclerView mRecyclerViewViewed;
-    @Bind(R.id.buttonMoreViewed)
+    @BindView(R.id.buttonMoreViewed)
     Button mButtonMore;
-    @Bind(R.id.progressBar)
+    @BindView(R.id.progressBar)
     ProgressBar mProgressBar;
 
     private BannerPagerAdapter mAdapterBanner;

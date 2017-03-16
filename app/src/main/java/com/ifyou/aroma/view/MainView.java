@@ -15,8 +15,7 @@ import com.ifyou.aroma.fragment.EmptyFragment;
 import com.ifyou.aroma.fragment.HomeFragment;
 import com.ifyou.aroma.helper.EventHelper;
 
-import butterknife.Bind;
-import butterknife.ButterKnife;
+import butterknife.BindView;
 
 /**
  * Created by Baranov on 14.03.2017.
@@ -24,13 +23,13 @@ import butterknife.ButterKnife;
 
 public class MainView extends ViewImpl {
 
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar toolbar;
-    @Bind(R.id.nav_view)
+    @BindView(R.id.nav_view)
     NavigationView navigationView;
-    @Bind(R.id.drawer_layout)
+    @BindView(R.id.drawer_layout)
     DrawerLayout drawer;
-    @Bind(R.id.bottom_navigation)
+    @BindView(R.id.bottom_navigation)
     BottomNavigationView bottomNavigationView;
 
     @Override
@@ -87,6 +86,6 @@ public class MainView extends ViewImpl {
 
     @Override
     public void destroy() {
-        ButterKnife.unbind(mRootView.getRootView());
+        mUnbinder.unbind();
     }
 }
