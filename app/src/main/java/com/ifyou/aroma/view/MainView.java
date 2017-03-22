@@ -51,7 +51,7 @@ public class MainView extends ViewImpl {
     public boolean setNavigationItemSelected(FragmentManager manager, int menuId) {
         setNewRootFragment(manager, menuId);
         drawer.closeDrawer(GravityCompat.START);
-        return false;
+        return true;
     }
 
     public boolean closeDrawer() {
